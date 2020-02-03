@@ -17,7 +17,7 @@
       
       table{
         border-collapse:collapse;
-        border:2px solid red;
+        border:2px solid #888;
         letter-spacing:1px;
         font-size:12px;
       }
@@ -34,14 +34,10 @@
       td{
         text-align:center;
       }
-
       tr:nth-child(even) td{
-        background-color:green;
+        opacity:.7;
       }
-
-      tr:nth-child(odd) td{
-        background-color:yellow;
-      }
+      
     </style>
   </head>
   
@@ -50,7 +46,7 @@
     <table>
       <tbody>
       <tr> <!-- first row -->
-      <td>Patent Number</td>
+      <td style="background-color:">Patent Number</td>
       <td>Progress Report</td>
       <td>Applicant</td>
       <td>Published Date</td>
