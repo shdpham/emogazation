@@ -94,6 +94,11 @@
         background-color:##EFFACE;
       }
       
+      #tablecontainer{
+        overflow-x:auto;
+        float:right;
+      }
+      
       #sidebar{
         position:fixed;
         width:330px;
@@ -109,7 +114,7 @@
          <p>Here we will have some info lol</p>
       </div>
         
-    <div style="overflow-x:auto;">
+    <div id="tablecontainer">
       <table> <!-- using tableizer to convert excel sheet into html -->
         <thead><tr><th>Patent Number</th><th>Progress Report</th><th>Applicant</th><th>Published Date</th><th>CPC # (Primary)</th><th>CPC # (Secondary)</th></tr></thead><tbody>
         <tr><td><a href="https://www.lens.org/lens/patent/059-261-245-471-983">US 4437913 A</a></td><td>5/2/19</td><td>Hitachi Ltd.</td><td>Apr 25, 1996</td><td>F02M51/0639</td><td>F02M61/168</td></tr>
